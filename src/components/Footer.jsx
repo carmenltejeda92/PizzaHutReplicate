@@ -7,10 +7,11 @@ function Footer() {
         <div className='upperFt'>
             <div className='mobileApp'>
                 <div className='mobile'>
+                    <div><p>Get our mobile app</p></div>
                     <div><a href="">APPLE STORE</a></div>
                     <div><a href="">GOOGLE PLAY STORE</a></div>
                 </div>
-                <div>Social media icons need put here</div>
+                <div>Social</div>
             </div>
             <div className='columns'>
                 <div className='fstColumn'>

@@ -163,7 +163,13 @@ a:hover{
 
 .findStore{
   display: flex;
-  margin: 0 auto;
+  align-self: center;
+}
+
+.findStore a{
+  text-decoration: none;
+  color: black;
+  display: flex;
   margin-bottom: 40px;
   margin-top: 40px;
   width: 1060px;
@@ -243,7 +249,10 @@ a:hover{
   justify-content: space-evenly;
 }
 
-
+.fTwo a{
+  text-decoration: none;
+  color: black
+}
 
 .fstFeat{
   display: flex;
@@ -296,43 +305,135 @@ a:hover{
 
 .sndFeatured{
   display: flex;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.sndFeatured a{
+  text-decoration: none;
+  color: black;
 }
 
 .melts{
+  display: flex;
+  align-items: end;
   background-image: url('https://www.pizzahut.com/assets/w/images/homepage_deal/Melts_LargeDesktop_priced_sk_541x282.jpg');
-  height: 360px;
-  width: 400px;
+  height: 350px;
+  width: 500px;
+  margin-right: 30px;
   background-repeat: no-repeat;
-  margin: 5px;
   border-radius: 10px;
   box-shadow: 5px 5px 2px lightgray;
 }
 
 .wings{
+  display: flex;
+  align-items: end;
   background-image: url('https://www.pizzahut.com/assets/w/images/homepage_deal/Sidekick_BOTRADwings_LargeDesktop_541x282.jpg');
-  height: 360px;
-  width: 400px;
+  height: 350px;
+  width: 500px;
   background-repeat: no-repeat;
-  margin: 5px;
   border-radius: 10px;
   box-shadow: 5px 5px 2px lightgray;
 }
 
-.bttmLinks{
+
+
+.popTxt{
   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 300px;
+  width: 1050px;
+}
+
+.txtPop{
+  display: flex;
+  justify-self: left;
+}
+
+.popular{
+  margin: 20px;
+}
+
+.popText{
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-size: 30pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.popText a{
+  display: flex;
+  font-size: 11pt;
+  text-decoration: none;
+  color: #e21216;
+  margin-left: 20px;
+}
+
+.popText a:hover{
+  text-decoration: 1px underline #e21216;
+}
+
+#topPop{
+  display: flex;
+  margin: 0 auto;
+  border-top: 2px solid #e21216;
+  border-bottom: 1px solid #e21216;
+  width: 1030px;
+  height: 5px;
+  margin-top: 30px;
+}
+
+.popPizza{
+  display: flex;
+  align-self: center;
+  width: 1030px;
+}
+
+.pop {
+  display: flex;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px lightgray;
+  width: 250px;
+}
+
+.popPizza a{
+  text-decoration: none;
+  color: black;
+}
+
+#btmPop{
+  display: flex;
+  margin: 0 auto;
+  margin-top: -50px;
+  border-top: 1px solid #e21216;
+  border-bottom: 2px solid #e21216;
+  width: 1030px;
+  height: 5px;
+}
+
+hr{
+  width: 1030px;
+  opacity: 0.5;
+}
+
+.bttmLinks{
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  width: 1030px;
 }
 
 .lfLink{
+  display: flex;
   background-image: url('https://www.pizzahut.com/assets/w/images/homepage_narrow_banner/HutRewards_MarketingBanner_541x282.jpg');
-  height: 260px;
-  width: 75%;
-  background-repeat: no-repeat;
-  margin: 5px;
-  border-radius: 5px;
-}
-
-.rtLink{
-  background-image: url('https://www.pizzahut.com/assets/w/images/homepage_narrow_banner/NowHiring_MarketingBanner_541x282.jpg');
   height: 260px;
   width: 100%;
   background-repeat: no-repeat;
@@ -340,33 +441,15 @@ a:hover{
   border-radius: 5px;
 }
 
-.popTxt{
-  height: 300px;
-}
-
-.popular{
-  margin: 20px;
-}
-
-#btmPop{
-  border-top: 1px solid red;
-  border-bottom: 2px solid red;
-  height: 5px;
-}
-
-.popPizza{
+.rtLink{
   display: flex;
-  justify-content: space-evenly;
+  background-image: url('https://www.pizzahut.com/assets/w/images/homepage_narrow_banner/NowHiring_MarketingBanner_541x282.jpg');
+  height: 260px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: 5px;
+  border-radius: 5px;
 }
-
-.pop{
-  box-shadow: 5px 5px 2px lightgray;
-  width: 350px;
-}
-
-
-
-
 
 
 
@@ -395,6 +478,12 @@ h6{
   margin: 5px;
   display: flex;
   flex-direction: column;
+  font-size: 25pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.mobileApp a{
+  font-size: 10pt;
 }
 
 .bottomMenu{
