@@ -7,15 +7,15 @@ function Footer() {
         <div className='upperFt'>
             <div className='mobileApp'>
                 <div className='mobile'>
-                    <div><p>Get our mobile app</p></div>
-                    <div><a href="">APPLE STORE</a></div>
-                    <div><a href="">GOOGLE PLAY STORE</a></div>
+                    <div className='ma' id='app'><p>Get our mobile app</p></div>
+                    <div className='ma'><a href="">APPLE STORE</a></div>
+                    <div className='ma'><a href="">GOOGLE PLAY STORE</a></div>
                 </div>
                 <div>Social</div>
             </div>
             <div className='columns'>
                 <div className='fstColumn'>
-                    <div className='bottomMenu'>
+                    <div className='column'>
                         <h6>MENU</h6>
                         <a href="">Pizza</a>
                         <a href="">Wings</a>
@@ -27,19 +27,19 @@ function Footer() {
                         <a href="">Deals</a>
                         <a href="">Full Menu</a>
                     </div>
-                    <div className='myAcct'>
+                    <div className='column'>
                         <h6>MY ACCOUNT</h6>
                         <a href="">Create an account</a>
                         <a href="">Sign In</a>
                     </div>
                 </div>
                 <div className='sndColumn'>
-                    <div className='aboutFood'>
+                    <div className='column' id="food">
                         <h6>ABOUT OUR FOOD</h6>
                         <a href="">Nutrition</a>
                         <a href="">Gluten-Free</a>
                     </div>
-                    <div className='aboutUs'>
+                    <div className='column'>
                         <h6>ABOUT US</h6>
                         <a href="">Our Story</a>
                         <a href="">Hut Life blog</a>
@@ -56,7 +56,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className='thrdColumn'>
-                    <div className='custServ'>
+                    <div className='column'>
                         <h6>CUSTOMER SERVICE</h6>
                         <a href="">COVID-19 updates</a>
                         <a href="">Contact us</a>

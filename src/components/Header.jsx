@@ -9,7 +9,7 @@ function Header() {
                     width="60px" height="45px"></img></a>
             </div>
             <div className='dAndM'>
-                <div className='deal'><a href="https://www.pizzahut.com/deals">Deals</a></div>
+                <div className='deal'><a href="">Deals</a></div>
                 <div className='dropDown'>
                     <button className='menu'>Menu</button>
                     <div className='menuItems'>

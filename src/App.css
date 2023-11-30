@@ -419,7 +419,7 @@ a:hover{
 }
 
 hr{
-  width: 1030px;
+  width: 85%;
   opacity: 0.5;
 }
 
@@ -453,6 +453,12 @@ hr{
 
 
 
+.Footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Footer  a{
   font-size: 9pt;
 }
@@ -463,50 +469,110 @@ h6{
 
 .para{
   font-size: 9pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.delChg{
+  height: 
 }
 
 .columns{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-top: -50px;
+}
+
+#food{
+  height: 130px
+}
+
+.columns a{
+  margin-bottom: 10px;
 }
 
 .upperFt{
   display: flex;
+  width: 1080px;
+  height: 600px;
+  justify-content: space-between;
 }
 
 
 .mobileApp{
   margin: 5px;
+  align-items: center;
+  width: 50%;
   display: flex;
   flex-direction: column;
   font-size: 25pt;
   font-family: 'Times New Roman', Times, serif;
 }
 
+.mobile{
+  display: flex;
+  flex-direction: column;
+}
+
+.column a:hover{
+  text-decoration: underline 1px solid black;
+}
+
 .mobileApp a{
-  font-size: 10pt;
+  display: flex;
+  font-size: 12pt;
+  text-decoration: none;
+  color: #e21216;
 }
 
-.bottomMenu{
+.mobileApp a:hover{
+  text-decoration: underline 1px solid #e21216;
+}
+
+#app{
+  margin-bottom: -15px;
+}
+
+.column{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  height: 300px;
+  margin-bottom: -20px;
+}
+
+.column h6{
+  font-weight: normal;
+  font-size: 9pt;
+  margin-bottom: 10px;
+}
+
+.column a{
+  text-decoration: none;
+  color: black;
+}
+
+.bar{
+  display: flex;
+  width: 85%;
+  text-align: left;
+}
+
+.bar a{
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+}
+
+.bar a:hover{
+    text-decoration: underline 1px solid black;
+  }
+
+.para{
   display: flex;
   flex-direction: column;
-}
+  width: 85%;
 
-.myAcct{
-  display: flex;
-  flex-direction: column;
-}
-
-.aboutFood{
-  display: flex;
-  flex-direction: column;
-}
-
-.aboutUs{
-  display: flex;
-  flex-direction: column;
-}
-
-.custServ{
-  display: flex;
-  flex-direction: column; 
 }
