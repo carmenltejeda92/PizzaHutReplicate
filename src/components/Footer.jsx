@@ -11,7 +11,7 @@ function Footer() {
                     <div className='ma'><a href="">APPLE STORE</a></div>
                     <div className='ma'><a href="">GOOGLE PLAY STORE</a></div>
                 </div>
-                <div>Social</div>
+                <div>socials</div>
             </div>
             <div className='columns'>
                 <div className='fstColumn'>

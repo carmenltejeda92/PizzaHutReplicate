@@ -13,9 +13,7 @@ function Header() {
                     width="60px" height="45px"></img></a>
             </div>
             <div className='dAndM'>
-                <div className='deal'>
-                    <Link to='/TestPage'><button>Deals</button></Link>
-                    </div>
+                <div className='deal'>Deals</div>
                 <div className='dropDown'>
                     <button className='menu'>Menu</button>
                     <div className='menuItems'>
@@ -38,7 +36,7 @@ function Header() {
                 </div>
                 <div className='hutSign'>
                     <div className='hut'>HUT REWARDS</div>
-                    <div>Sign In</div>
+                    <div className='si'>Sign In</div>
                 </div>
             </div>
             <div className='shoppingC'>
