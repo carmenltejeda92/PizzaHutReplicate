@@ -1,19 +1,30 @@
 .nav{
   display: flex;
   justify-content: space-around;
-  height: 75px;
+  height: 70px;
   border: 1px solid lightgray;
   box-shadow: 2px 2px 2px lightgray;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navLf{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: -5%;
+}
+
+.navRt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -75px;
 }
 
 .dAndM{
   display: flex;
-  margin: 5px;
-  margin-left: -25%;
-}
-
-.logo{
-  margin-left: -12%;
+  background-color: #e21216;
 }
 
 .dropDown{
@@ -35,11 +46,18 @@
   display: block;
 }
 
+.deal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .menu{
+  display: flex;
   background-color: transparent;
   border-color: transparent;
-  font-weight: bold;
   font-size: 15pt;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 a:hover{
@@ -49,7 +67,6 @@ a:hover{
 .nav a{
   text-decoration: none;
   color: black;
-  font-weight: bold;
   font-size: 15pt;
 }
 
@@ -62,10 +79,13 @@ a:hover{
 
 .signIn{
   display: flex;
-  font-weight: bold;
+  justify-content: center;
+  align-items: center;
   font-size: 12pt;
   border: 1px solid lightgray;
   box-shadow: 2px 2px 2px lightgray;
+  width: 175px;
+  height: 70px;
 }
 
 .hutSign{
@@ -87,45 +107,136 @@ a:hover{
 
 .shoppingC{
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
   font-size: 12pt;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 2px lightgray;
 }
 
 .cart{
-  position: relative;
-}
-
-.Footer{
   display: flex;
+  justify-content: center;
+  margin-left: 25px;
+  /* flex-direction: column; */
 }
 
-.Footer  a{
-  font-size: 9pt;
-}
-
-h6{
+.amount{
+  position: absolute;
   font-size: 10pt;
 }
 
-.para{
-  font-size: 9pt;
+.total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 75px;
+  font-size: 15pt;
+  font-weight: normal;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.AD{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .firstAd{
   background-image: url('https://www.pizzahut.com/assets/w/images/homepage_hero/Hero_TripleTreatBox2023_Desktop_1104x360.jpg');
   background-repeat: no-repeat;
-  height: 360px;
-  width: auto;
-  margin: 10px;
+  height: 330px;
+  width: 1050px;
   border-radius: 10px;
+  box-shadow: 5px 5px 2px lightgray;
+  object-fit: cover;
+}
+
+.findStore{
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 1060px;
+  height: 70px;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid #e21216;
+  box-shadow: 5px 5px 2px lightgray;
+  align-items: center;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.gps{
+  display: flex;
+  font-size: 25pt;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-right: 1px solid lightgray;
+  height:70px;
+  width: 250px;
+}
+
+.find{
+  font-size: 15pt;
+}
+
+.btnLK{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 230px;
+  background-color: #e21216;
+  color: white;
+  border-radius: 5px;
+  margin-right: 20px;
 }
 
 .featured{
   display: flex;
   justify-content: center;
+  
 }
+
+.othfeat{
+  display: flex;
+  margin: 0 auto;
+  text-align: left;
+  width: 1100px;
+  margin-bottom: 10px;
+}
+
+.fOne{
+  display:flex;
+  margin-left: 20px;
+  font-size: 30pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.fOne a{
+  text-decoration: none;
+  color: red;
+  font-size: 10pt;
+}
+
+.fOne a:hover{
+  text-decoration: underline 1px red;
+}
+
+.fTwo{
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+}
+
+
 
 .fstFeat{
   background-image: url('https://www.pizzahut.com/assets/w/images/homepage_deal/Sidekick_1299SC_SmallDesktop_v2_352x282.jpg');
@@ -134,6 +245,7 @@ h6{
   background-repeat: no-repeat;
   margin: 5px;
   border-radius: 10px;
+  box-shadow: 5px 5px 2px lightgray;
 }
 
 .sndFeat{
@@ -143,6 +255,7 @@ h6{
   background-repeat: no-repeat;
   margin: 5px;
   border-radius: 10px;
+  box-shadow: 5px 5px 2px lightgray;
 }
 
 .thrdFeat{
@@ -152,6 +265,7 @@ h6{
   background-repeat: no-repeat;
   margin: 5px;
   border-radius: 10px;
+  box-shadow: 5px 5px 2px lightgray;
 }
 
 .sndFeatured{
@@ -165,6 +279,7 @@ h6{
   background-repeat: no-repeat;
   margin: 5px;
   border-radius: 10px;
+  box-shadow: 5px 5px 2px lightgray;
 }
 
 .wings{
@@ -174,6 +289,7 @@ h6{
   background-repeat: no-repeat;
   margin: 5px;
   border-radius: 10px;
+  box-shadow: 5px 5px 2px lightgray;
 }
 
 .bttmLinks{
@@ -186,6 +302,7 @@ h6{
   width: 75%;
   background-repeat: no-repeat;
   margin: 5px;
+  border-radius: 5px;
 }
 
 .rtLink{
@@ -194,12 +311,7 @@ h6{
   width: 100%;
   background-repeat: no-repeat;
   margin: 5px;
-}
-
-#topPop{
-  border-top: 2px solid red;
-  border-bottom: 1px solid red;
-  height: 5px;
+  border-radius: 5px;
 }
 
 .popTxt{
@@ -221,6 +333,10 @@ h6{
   justify-content: space-evenly;
 }
 
+.pop{
+  box-shadow: 5px 5px 2px lightgray;
+  width: 350px;
+}
 
 
 
@@ -228,7 +344,54 @@ h6{
 
 
 
+.Footer  a{
+  font-size: 9pt;
+}
+
+h6{
+  font-size: 10pt;
+}
+
+.para{
+  font-size: 9pt;
+}
+
+.columns{
+  display: flex;
+}
+
+.upperFt{
+  display: flex;
+}
 
 
+.mobileApp{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
 
+.bottomMenu{
+  display: flex;
+  flex-direction: column;
+}
 
+.myAcct{
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutFood{
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutUs{
+  display: flex;
+  flex-direction: column;
+}
+
+.custServ{
+  display: flex;
+  flex-direction: column; 
+}

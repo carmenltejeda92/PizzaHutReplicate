@@ -7,26 +7,29 @@ function Main() {
           <div className='firstAd'></div>
         </div>
         <div className='findStore'>
-            <div>
-                <div>
-                    GPS icon
-                </div>
-                <a href="">Start Here</a>
+            <div className='gps'>
+                <div>Start here</div>
+            </div>
+            <div className='find'>
+                <div>Find your store to see local deals</div>
             </div>
             <div>
-                <input type='text' placeholder='Find your store to see local deals'></input>
-            </div>
-            <div>
-                <button>FIND DEALS</button>
+                <div className='btnLK'>FIND DEALS</div>
             </div>
         </div>
-      <div className='featured'>
-        <div><h3>Featured</h3></div>
-        <div><a href="">SEE MORE</a></div>
-        <div className='fstFeat'></div>
-        <div className='sndFeat'></div>
-        <div className='thrdFeat'></div>
-      </div>
+        <div className='othfeat'>
+            <div className='fOne'>
+                <div>Featured</div>
+                <div><a href="">SEE MORE</a></div>
+            </div> 
+        </div>
+        <div className='featured'>         
+            <div className='fTwo'>
+                <div className='fstFeat'></div>
+                <div className='sndFeat'></div>
+                <div className='thrdFeat'></div>
+            </div>
+        </div>
       <div className='sndFeatured'>
         <div className='melts'></div>
         <div className='wings'></div>
@@ -38,27 +41,27 @@ function Main() {
             <div className='popLink'><a href="">PIZZA MENU</a></div>
                 <div className='popPizza'>
                     <div>
-                        <div className='supreme'>
+                        <div className='pop'>
                             <img src="https://www.pizzahut.com/assets/w/images/PopularPizzas_LargeOriginalPanSupreme_73x132.jpg"
-                                width="100px" height="100px"></img>
+                                width="50px" height="100px"></img>
                         </div>
-                        <div className='cheese'>
+                        <div className='pop'>
                             <img src="https://www.pizzahut.com/assets/w/images/web2_poppizzas_cheese_132x73.jpg"
-                                width="100px" height="100px"></img>
+                                width="50px" height="100px"></img>
                         </div>
                     </div>
                     <div>
-                        <div className='meat'>
+                        <div className='pop'>
                             <img src="https://www.pizzahut.com/assets/w/images/web2_poppizzas_meatlovers_132x73.jpg"
-                                width="100px" height="100px"></img>
+                                width="50px" height="100px"></img>
                         </div>
-                        <div className='pepperoni'>
+                        <div className='pop'>
                             <img src="https://www.pizzahut.com/assets/w/images/web2_popularpizzas_pepperoni_73x132.jpg"
-                                width="100px" height="100px"></img>
+                                width="50px" height="100px"></img>
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
         <div id='btmPop'></div>
       </div>
       <div className='bttmLinks'>
