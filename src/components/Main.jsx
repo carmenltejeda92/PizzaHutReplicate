@@ -11,6 +11,7 @@ function Main() {
         <div className='findStore'>
             <a href="">
                 <div className='gps'>
+                    <div className='back'></div>
                     <div><img src="https://cdn.icon-icons.com/icons2/3106/PNG/96/location_pin_gps_placeholder_map_marker_icon_191619.png"
                         width="50px" height="50px"></img></div>
                     <div>Start here</div>

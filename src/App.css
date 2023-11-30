@@ -5,7 +5,6 @@
   border: 1px solid lightgray;
   box-shadow: 2px 2px 2px lightgray;
   font-family: 'Times New Roman', Times, serif;
-  background-color: aqua;
 }
 
 .navLf{
@@ -197,6 +196,17 @@ a:hover{
   border-right: 1px solid lightgray;
   height:70px;
   width: 250px;
+}
+
+.back{
+  display: flex;
+  position: absolute;
+  background-color: #e21216;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  margin-left: -143px;
+  margin-top: -18px;
 }
 
 .find{
