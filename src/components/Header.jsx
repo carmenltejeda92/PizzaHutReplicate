@@ -1,7 +1,11 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
+import TestPage from './TestPage'
 
 function Header() {
-  return (
+
+    return ( 
     <div className='nav'>
         <div className='navLf'>
             <div className='logo'>
@@ -9,7 +13,9 @@ function Header() {
                     width="60px" height="45px"></img></a>
             </div>
             <div className='dAndM'>
-                <div className='deal'><a href="">Deals</a></div>
+                <div className='deal'>
+                    <Link to='/TestPage'><button>Deals</button></Link>
+                    </div>
                 <div className='dropDown'>
                     <button className='menu'>Menu</button>
                     <div className='menuItems'>
@@ -46,6 +52,7 @@ function Header() {
             </div>
         </div>
     </div>
+
   )
 }
 
