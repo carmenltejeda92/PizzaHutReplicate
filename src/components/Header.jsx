@@ -15,6 +15,11 @@ function Header() {
                     <div className='menuItems'>
                         <a href="">Pizza</a>
                         <a href="">Wings</a>
+                        <a href="">Sides</a>
+                        <a href="">Pasta</a>
+                        <a href="">Desserts</a>
+                        <a href="">Drinks</a>
+                        <a href="">Dips</a>
                     </div>
                 </div>
             </div>
